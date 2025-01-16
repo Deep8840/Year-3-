@@ -1,0 +1,134 @@
+#part1
+{
+    width:25%;
+    height:600px;
+    /* background-color:lightblue; */
+    float:left;
+    margin-left: 20%;
+    
+
+    /* justify-content: space-between;
+    flex-direction: column; */
+    /* padding : 0; */
+}
+
+
+
+.Photo img
+{
+    width: 150px;
+    height: 150px;
+    margin-left: 5%;
+    margin-top: 5%;
+    /* float : left; */
+    border-radius: 50%;
+    background-color: pink;
+}
+
+.Full_Name
+{
+    font-size: 15px;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: column;
+ } 
+
+.Full_Name h3
+{
+    font-weight: 1000;
+}
+
+.skills
+{
+    font-size: 15px;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: column;
+ }
+
+ .skills h3
+{
+    font-weight: 1000;
+}
+
+.skills list {
+    list-style-type: none;
+}
+
+#part2
+{
+    width:35%;
+    height:600px;
+    /* background-color:lightblue; */
+    justify-content: space-between;
+    flex-direction: column;
+    padding : 0;
+    float: right;
+    margin-right: 20%;
+}
+
+
+
+.Internship
+{
+    width: 50%;
+    text-align: justify;
+    float:left;
+}
+
+.Internship ul
+{
+    font-size: 14;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Project
+{
+    font-size: 15;
+    text-align: justify;
+}  
+
+.Project p
+{
+    font-size: 14;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.Education
+{
+    font-weight: 1000;
+}
+
+
+.Eduation table
+{
+    border-collapse: collapse;
+    width: auto;
+    margin: 20px;
+    border-width: 10px;
+    border-style: dashed;
+    border: 1px;
+    padding: 1rem;
+    text-align: left;
+
+}
+
+
+/* .Education table tr 
+{
+    background-color: #f2f2f2;
+    border-style: ridge;
+} */
+
+.Education table tr th
+{
+    background-color: #f2f2f2;
+
+}
+
+.Education table tr td
+{
+    background-color: #f2f2f2;
+    border-style: ridge;
+}
